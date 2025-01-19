@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 250px;
+  border: 2px solid black;
+  text-align: center;
+  margin: 20px auto;
+}
+.body {
+  width: 90%;
+  height: 60%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.nav {
+  width: 35%;
+  height: 100%;
+  border: 2px solid black;
+}
+.Content {
+  width: 65%;
+  height: 100%;
+  border: 2px solid black;
+}
+.Footer {
+  margin-top: 20px;
+  width: 90%;
+  height: 20%;
+  border: 2px solid black;
+}

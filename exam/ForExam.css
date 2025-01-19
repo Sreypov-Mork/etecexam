@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.Container {
+    display: flex;             
+    flex-direction: column;    
+    justify-content: center;    
+    align-items: center;        
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px auto;
+}
+.Header {
+  width: 80%;
+  height: 20%;
+  border: 2px solid black;
+}
+.Content {
+  width: 80%;
+  height: 40%;
+  border: 2px solid black;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
